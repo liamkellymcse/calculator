@@ -9,6 +9,7 @@ exports.calculate = function(req, res) {
     res.status(400);
     res.json({ error: err.message });
   });
+  //adding a comment
 
   var operations = {
     'add':      function(a,b) { return a + b },
